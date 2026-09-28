@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOUR NAME | Cybersecurity Portfolio</title>
+<meta name="description" content="Cybersecurity project hub: VAPT tools, CTFs, hands-on labs and more.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">&gt;_ YOUR NAME</a>
+  <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#competitions">Competitions</a>
+    <a href="#learning">Learning</a><a href="#certs">Certs</a><a href="#community">Community</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="tag">// cybersecurity &amp; VAPT</p>
+      <h1>YOUR NAME</h1>
+      <h2>Building security tools, breaking things legally, and learning in public.</h2>
+      <p class="lead">Aspiring cybersecurity professional focused on web/API security, vulnerability assessment and SOC fundamentals. This site is the evidence behind my CV.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://linkedin.com/in/YOUR-USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://tryhackme.com/p/YOUR-USERNAME" target="_blank" rel="noopener">TryHackMe</a>
+      </div>
+    </div>
+    <div class="term" aria-hidden="true">
+      <div class="dots"><i></i><i></i><i></i></div>
+      <pre id="typed"></pre>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="wrap reveal">
+  <h3 class="sec">About</h3>
+  <div class="about">
+    <p>I'm drawn to the offensive side of security: finding how web apps and APIs fail, then turning that into tools that automate the finding. My background as a full stack developer means I read code as well as traffic, which helps when hunting for issues like path traversal or GraphQL injection.</p>
+    <p>I've worked as a Cyber Security and VAPT intern, practise regularly through CTFs and hands-on labs, and I'm growing on the defensive side too: Splunk, SIEM, alert investigation and incident triage. [Add: what you're currently building or learning.]</p>
+    <div class="chips"><span>Web &amp; API security</span><span>VAPT</span><span>OWASP Top 10</span><span>SOC / SIEM</span><span>Reverse engineering</span><span>Python</span></div>
+  </div>
+</section>
+
+<section id="projects" class="wrap reveal">
+  <h3 class="sec">Projects <small>click a card for the full breakdown</small></h3>
+  <div class="grid" id="projectGrid"></div>
+</section>
+
+<section id="competitions" class="wrap reveal">
+  <h3 class="sec">Cybersecurity Competitions</h3>
+  <div class="grid">
+    <article class="card">
+      <h4>[Add CTF / hackathon name]</h4>
+      <p class="meta">Result: [placement] &middot; [Date]</p>
+      <p><b>What it involved:</b> [format, team or solo, duration]</p>
+      <p><b>Areas covered:</b> [web, crypto, forensics, stego, reversing...]</p>
+      <p><b>What I learned:</b> [key takeaway]</p>
+      <p class="ph">Evidence: [add scoreboard / certificate / write-up link]</p>
+    </article>
+    <article class="card dashed"><p class="ph">Copy the card above for each competition.</p></article>
+  </div>
+</section>
+
+<section id="learning" class="wrap reveal">
+  <h3 class="sec">Practical Learning <small>hands-on labs, not certifications</small></h3>
+  <div class="learn">
+    <div class="stat"><b>[00]</b><span>TryHackMe rooms completed</span></div>
+    <div class="stat"><b>[00]</b><span>Other labs / platforms</span></div>
+    <div>
+      <p><b>Areas covered:</b> [add e.g. web exploitation, Nmap, Wireshark, Metasploit, Splunk, Linux]</p>
+      <div class="btns"><a class="btn" href="https://tryhackme.com/p/YOUR-USERNAME" target="_blank" rel="noopener">TryHackMe profile</a><span class="btn ph">Selected write-ups [add links]</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="certs" class="wrap reveal">
+  <h3 class="sec">Certifications</h3>
+  <div class="grid small" id="certGrid"></div>
+</section>
+
+<section id="community" class="wrap reveal">
+  <h3 class="sec">Achievements &amp; Community</h3>
+  <div class="grid">
+    <article class="card"><h4>[Achievement / volunteering / mentoring]</h4><p>[What you did and the impact it had, with numbers if possible.]</p><p class="ph">Evidence: [link]</p></article>
+    <article class="card dashed"><p class="ph">Add talks, awards, open-source contributions or mentoring here.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="wrap reveal">
+  <h3 class="sec">Contact</h3>
+  <p class="lead">Open to junior SOC, VAPT and application security roles.</p>
+  <div class="btns">
+    <a class="btn primary" href="mailto:you@example.com">you@example.com</a>
+    <a class="btn" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/YOUR-USERNAME" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+</main>
+
+<footer>&copy; <span id="year"></span> YOUR NAME &middot; Built with HTML, CSS &amp; JS</footer>
+
+<dialog id="modal"><div id="modalBody"></div></dialog>
+<script src="script.js"></script>
+</body>
+</html>
