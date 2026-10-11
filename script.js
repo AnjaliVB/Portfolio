@@ -17,17 +17,25 @@ const projects = [
     links: { github: "", screenshots: "", writeup: "", demo: "", docs: "" }
   },
   {
-    name: "GraphQLi Detector", tag: "API security tool",
+    name: "GraphQLi Detector", tag: "Web Application Security | API Security | Python Automation",
     summary: "Automatic tool that detects vulnerabilities in GraphQL applications.",
-    what: "A scanner that checks GraphQL endpoints for injection and related weaknesses.",
-    why: "GraphQL APIs are widely adopted and often under-tested compared with REST. [Add your motivation.]",
-    objective: "Identify GraphQL vulnerabilities automatically.",
-    tools: ["Python", "GraphQL", "Burp Suite", "API security testing"],
-    did: ["Studied GraphQL query structure and common weaknesses", "Implemented automated probing of endpoints", "[Add: what checks it performs]"],
-    skills: ["API security testing", "Injection testing", "Tool development"],
+    what: "Developed a Python-based GraphQL security scanner to automate endpoint discovery and identify potential security misconfigurations and vulnerabilities in GraphQL APIs. The tool combines endpoint enumeration, schema analysis, response inspection, and automated security checks to help assess the exposure of GraphQL services in authorized testing environments.",
+    why: "GraphQL APIs are widely adopted and often under-tested compared with REST. To automate the identification of GraphQL security misconfigurations and potential vulnerabilities, making API security assessments faster and more efficient.",
+    objective: "To develop a Python-based tool that automates GraphQL endpoint discovery and detects potential API vulnerabilities, security misconfigurations, and information disclosure risks.",
+    tools: ["Python", "Requests", "GraphQL", "REST/API concepts", "JSON", "Multithreading", "Socket Programming", "Regular Expression"],
+    did: ["Endpoint Discovery: Identifies potential GraphQL endpoints through website crawling, JavaScript analysis, and common-path enumeration.",
+          "Introspection Analysis: Checks whether GraphQL schema introspection is enabled and extracts schema details, including available types, queries, and mutations.",
+          "Security Misconfiguration Checks: Tests for field suggestions, query batching, and schema definition language (SDL) exposure.",
+          "Access Control Testing: Performs preliminary checks for potential IDOR-related data exposure through identifier-based queries.",
+          "Technology Fingerprinting: Examines HTTP headers and schema metadata for GraphQL engine and version information disclosure.",
+          "Automated Reporting: Records findings with severity labels, descriptions, and supporting evidence, with optional JSON schema output.",
+          "Target Validation: Includes URL validation and private-IP checks intended to reduce the risk of unintended internal network access."],
+    skills: ["API security testing", "Injection testing", "Tool development","Python programming","GraphQL Security","API Vulnerability Assessment","Endpoint Enumeration",
+             "Introspection Testing","Access Control Testing","Information Disclosure Analysis","Modules like Requests, urllib3, JSON","Regular Expressions","Web Crawling","Automated Vulnerability Detection",
+             "HTTP/HTTPS","JSON Reporting","Vulnerability Documentation","Severity Classification"],
     outcome: "[Add: results, test targets, findings.]",
     relevance: "Modern apps expose GraphQL APIs; automated checks speed up API pentests and security reviews.",
-    links: { github: "", screenshots: "", writeup: "", demo: "", docs: "" }
+    links: { github: "https://github.com/AnjaliVB/GraphQL_Agent", screenshots: "", writeup: "", demo: "", docs: "" }
   },
   {
     name: "Location Tracker (OSINT)", tag: "OSINT utility",
