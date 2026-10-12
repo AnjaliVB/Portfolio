@@ -135,7 +135,7 @@ $("#projectGrid").addEventListener("click", e => {
     <h5>Outcome</h5><p>${esc(p.outcome)}</p>
     <h5>Real-world relevance</h5><p>${esc(p.relevance)}</p>
     <h5>Evidence</h5>
-    <div class="btns">${linkBtn("GitHub repo", l.github)}${linkBtn("Screenshots", l.screenshots)}${linkBtn("Write-up", l.writeup)}${linkBtn("Demo", l.demo)}${linkBtn("Technical docs", l.docs)}</div>`;
+    <div class="btns">${linkBtn("GitHub repo", l.github)}</div>`;
   modal.showModal();
 });
 modal.addEventListener("click", e => { if (e.target === modal) modal.close(); });
