@@ -45,17 +45,23 @@ const projects = [
     links: { github: "https://github.com/AnjaliVB/GraphQL_Agent"}
   },
   {
-    name: "Location Tracker (OSINT)", tag: "OSINT utility",
+    name: "Python Phone Number Intelligence Tool – OSINT Metadata Lookup", tag: "OSINT utility | Python | Phone-Number-Lookup | Information-Gathering",
     summary: "Finds location, service provider and bank branch from a phone number or IFSC code.",
-    what: "A tool that resolves a phone number or IFSC code into location, telecom provider and bank branch details.",
-    why: "To practise OSINT techniques and see how much can be learned from public data. [Add your motivation.]",
-    objective: "Aggregate publicly available data into one lookup tool.",
-    tools: ["Python", "OSINT", "Public APIs / datasets [confirm]"],
-    did: ["Built lookups for phone numbers and IFSC codes", "Formatted results into a readable output", "[Add: data sources used]"],
-    skills: ["OSINT", "API integration", "Data handling"],
-    outcome: "[Add outcome.]",
+    what: "Developed  a Python-based Phone Number Information Lookup Tool using the phonenumbers library to extract publicly available metadata from phone numbers. The tool identifies the phone number's regional description, associated carrier information, and possible time zones. It demonstrates practical applications of Python programming, data parsing, and telecommunications metadata analysis. The project is designed for educational purposes and OSINT (Open-Source Intelligence) learning.",
+    why: "To practise OSINT techniques and see how much can be learned from public data. ",
+    objective: "To develop a Python-based Phone Number Information Lookup Tool that extracts and displays phone number metadata, including regional information, associated carrier details, and possible time zones..",
+    tools: ["Python", "OSINT","phonenumbers lib", "Geocoder Module","Carrier Module","Timezone Module"],
+    did: ["Phone Number Parsing: Accepts user input and parses phone numbers using the phonenumbers library.",
+          "Regional Information: Displays the geographical region associated with the phone number's numbering information.",
+          "Carrier Identification: Retrieves available carrier metadata.",
+          "Timezone Detection: Displays possible time zones associated with the number.",
+          "Interactive Input: Allows users to enter a phone number directly through the command line.",
+          "Lightweight and Simple: Runs locally without requiring a web interface or external API.",
+          "OSINT Learning: Demonstrates basic telecommunications metadata analysis for educational purposes."],
+    skills: ["OSINT", "API integration", "Data handling", "Python Programming","Phone Number Parsing","Data Extraction", "Python Libraries","Information Gathering"],
+    outcome: "Reveals Mobile Service Provider information, location like country and region",
     relevance: "OSINT is used in reconnaissance, fraud investigation and threat intelligence. Use only on data you're authorised to look up.",
-    links: { github: "", screenshots: "", writeup: "", demo: "", docs: "" }
+    links: { github: "https://github.com/AnjaliVB/Phone-Tracking-System" }
   },
   {
     name: "People Counting System (YOLOv8)", tag: "Computer vision",
