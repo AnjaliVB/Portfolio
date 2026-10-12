@@ -92,15 +92,20 @@ const projects = [
   {
     name: "Text-to-PDF Converter", tag: "Python utility",
     summary: "Python utility that converts plain text files into PDF.",
-    what: "A small Python utility that converts standard text files to PDF.",
+    what: "A small Python utility that reads a user-specified text file and converts its contents into a PDF document. The tool automates basic document conversion and generates a PDF output file, demonstrating file handling, PDF generation, and text processing in Python.",
     why: "[Add: why you built it.]",
     objective: "Simple, reliable text-to-PDF conversion.",
-    tools: ["Python", "PDF library [confirm]"],
-    did: ["Implemented file reading and PDF generation", "[Add details]"],
-    skills: ["Python scripting", "File handling"],
-    outcome: "[Add outcome.]",
+    tools: ["Python", "FPDF library","Python file operations, Reading files","FPDF page"],
+    did: ["User-Defined Input: Accepts the name or path of a text file.",
+          "Text File Reading: Reads file contents line by line.",
+          "PDF Generation: Creates a PDF document using the FPDF library.",
+          "Automated Conversion: Transfers text content into PDF cells.",
+          "Output File Creation: Saves the generated document as a PDF file.",
+          "Simple CLI Workflow: Provides a straightforward, interactive conversion process."],
+    skills: ["Python scripting", "File handling","File Handling","Text Processing","PDF Generation","FPDF Library","Document Automation","User Input Handling","Exception Handling","Basic Scripting"],
+    outcome: "Gained practical experience in Python file handling and document processing, learned to generate PDF documents programmatically using FPDF, improved understanding of reading text files and writing output files.",
     relevance: "Scripting skills for automating reporting and documentation.",
-    links: { github: "", screenshots: "", writeup: "", demo: "", docs: "" }
+    links: { github: "https://github.com/AnjaliVB/Text-to-pdf-converter"}
   }
 ];
 
