@@ -35,7 +35,7 @@ const projects = [
              "HTTP/HTTPS","JSON Reporting","Vulnerability Documentation","Severity Classification"],
     outcome: "[Add: results, test targets, findings.]",
     relevance: "Modern apps expose GraphQL APIs; automated checks speed up API pentests and security reviews.",
-    links: { github: "https://github.com/AnjaliVB/GraphQL_Agent", screenshots: "", writeup: "", demo: "", docs: "" }
+    links: { github: "https://github.com/AnjaliVB/GraphQL_Agent"}
   },
   {
     name: "Location Tracker (OSINT)", tag: "OSINT utility",
