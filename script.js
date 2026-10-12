@@ -4,17 +4,24 @@
 
 const projects = [
   {
-    name: "Path Traversal Vulnerability Detector", tag: "Web security tool",
+    name: "Smart LFI Scanner – Automated Web Vulnerability Assessment Tool", tag: "Web security tool | AppSec | Automated Scanning | Path Traversal ",
     summary: "Automated tool that detects path traversal vulnerabilities in web applications.",
-    what: "A tool that automatically tests web endpoints for path traversal (directory traversal) flaws.",
-    why: "Path traversal is a classic OWASP-listed issue that is tedious to test by hand across many parameters. [Add your personal motivation.]",
+    what: "Developed a Python-based automated web security assessment tool designed to identify potential Local File Inclusion (LFI) and path traversal vulnerabilities in web applications. The tool combines URL filtering, web crawling, parameter analysis, and payload-based testing to streamline the discovery and assessment of potentially vulnerable endpoints.",
+    why: "Path traversal is a classic OWASP-listed issue that is tedious to test by hand across many parameters; also as a part of VAPT internship",
     objective: "Automate detection so parameters can be tested quickly and consistently.",
-    tools: ["Python", "HTTP requests", "Burp Suite", "OWASP Top 10"],
-    did: ["Designed payload and detection logic for traversal attempts", "Built the scanner to test parameters and analyse responses", "[Add: how you validated it, e.g. on DVWA or a lab app]"],
-    skills: ["Web application security", "Vulnerability assessment", "Security tooling in Python"],
-    outcome: "[Add: what the tool found or how well it worked.]",
+    tools: ["Python", "HTTP requests","BeautifulSoup4" ,"urllib.parse","Regular Expressions","Collections","Local File Inclusion (LFI)","Path Traversal","URL Parameter Analysis","Web Crawling","HTTP Request Analysis","Session Management"],
+    did: ["Automated URL Analysis: Parses a list of URLs and identifies potentially vulnerable endpoints based on query parameter names, file extensions, and path-like values.",
+          "Intelligent Web Crawling: Crawls same-domain web pages to discover additional URLs containing query parameters, with configurable crawl depth and page limits.",
+          "Parameter-Based Filtering: Categorizes URLs into strong and weak candidates using configurable patterns associated with file handling, paths, templates, documents, and related functionality.",
+          "LFI and Path Traversal Testing: Tests candidate parameters using directory traversal payloads, encoded payload variations, and file access techniques.",
+          "Response Analysis: Compares baseline and test responses using content markers and response-length differences to flag potentially vulnerable behavior.",
+          "Authentication Support: Supports manual session-cookie input for assessing authenticated endpoints.",
+          "Automated Reporting: Displays potential findings in the terminal and saves response evidence to text files for further investigation.",
+          "Batch Processing: Processes multiple URLs from an input file and exports filtered candidate endpoints for subsequent testing."],
+    skills: ["Web application security","Security tooling in Python","Python Programming","Penetration Testing","Local File Inclusion (LFI)","Path Traversal Testing","Web Crawling","URL Parsing and Analysis","Security Automation","HTTP Request Handling","Vulnerability Assessment","Payload Testing","Response Analysis","BeautifulSoup","Requests Library", "Regex", "Security Reporting"],
+    outcome: "Gained practical experience in Python-based web security automation, explored common indicators of LFI and path traversal vulnerabilities, implemented web crawling and URL parameter discovery techniques,practiced HTTP request handling, session-cookie management, and response comparison, learned how to organize vulnerability assessment workflows and document potential findings.",
     relevance: "Automated checks like this support VAPT engagements and secure code review by catching file-access flaws early.",
-    links: { github: "", screenshots: "", writeup: "", demo: "", docs: "" }
+    links: { github: "https://github.com/AnjaliVB/PATH_TRAVERSAL_AGENT"}
   },
   {
     name: "GraphQLi Detector", tag: "Web Application Security | API Security | Python Automation",
