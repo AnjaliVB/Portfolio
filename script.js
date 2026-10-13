@@ -93,7 +93,7 @@ const projects = [
     name: "Text-to-PDF Converter", tag: "Python utility",
     summary: "Python utility that converts plain text files into PDF.",
     what: "A small Python utility that reads a user-specified text file and converts its contents into a PDF document. The tool automates basic document conversion and generates a PDF output file, demonstrating file handling, PDF generation, and text processing in Python.",
-    why: "[Add: why you built it.]",
+    why: "Built it out of interest",
     objective: "Simple, reliable text-to-PDF conversion.",
     tools: ["Python", "FPDF library","Python file operations, Reading files","FPDF page"],
     did: ["User-Defined Input: Accepts the name or path of a text file.",
