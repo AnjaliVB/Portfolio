@@ -80,7 +80,7 @@ const projects = [
     skills: ["Computer vision", "Python", "Applied AI","Object Detection and Tracking","YOLOv8","OpenCV","People Counting","Video Processing","NumPy","Pandas","Real-Time Detection","Data Logging"],
     outcome: "Implemented person detection using a pretrained YOLOv8 model.Gained hands-on experience with object tracking and video frame processing. Learned to define polygonal regions and detect movement between zones. Developed automated entry and exit counting logic using tracking IDs. Practiced integrating multiple Python libraries into a computer vision workflow. Implemented basic file-based logging for monitoring results.",
     relevance: "Occupancy analytics and physical security monitoring.",
-    links: { github: "", screenshots: "", writeup: "", demo: "", docs: "" }
+    links: { github: "https://github.com/AnjaliVB/People-Counting-System" }
   },
   {
     name: "Rule-Based Chatbot", tag: "Web development",
