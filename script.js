@@ -132,7 +132,7 @@ const projects = [
       skills:["Python","Network packet capture and inspection","TCP","UDP","ICMP","IP protocol fundamentals.","Scapy packet-layer analysis","Data visualization","Matplotlib","Network Monitoring"],
       outcome:"Gained hands-on experience in network packet capture, protocol identification, and traffic analysis using Python and Scapy, along with data visualization using Matplotlib and an understanding of fundamental network security monitoring concepts.",
       relevance:"Relevance: Demonstrates practical application of network traffic monitoring and protocol analysis for understanding network communication patterns. Builds foundational skills relevant to cybersecurity, network security monitoring, and intrusion detection.",
-      links:{github:""}
+      links:{github:"https://github.com/AnjaliVB/Network-Traffic-Analysis-and-Protocol-Distribution-Visualization-Using-Python-Scapy"}
    }
 ];
 
