@@ -71,7 +71,7 @@ const projects = [
     objective: "To develop an automated people counting system that detects, tracks, and counts individuals entering and exiting a designated area using computer vision and deep learning techniques, reducing the need for manual counting and enabling efficient monitoring of human movement.",
     tools: ["Python", "YOLOv8", "OpenCV","Pandas","NumPy","CVZone"],
     did: ["Person Detection: Detects people in video frames using the YOLOv8 deep learning model.",
-          "Object Tracking: Assigns tracking IDs to detected individuals to help maintain identity across frames.".
+          "Object Tracking: Assigns tracking IDs to detected individuals to help maintain identity across frames.",
           "Entry and Exit Detection: Uses predefined polygon zones to identify movement between designated areas.",
           "Automated People Counting: Maintains separate counts for entering and exiting individuals.",
           "Visual Monitoring: Displays bounding boxes, tracking IDs, counting zones, and live totals on the video feed.",
