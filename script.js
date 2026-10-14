@@ -112,7 +112,28 @@ const projects = [
     outcome: "Gained practical experience in Python file handling and document processing, learned to generate PDF documents programmatically using FPDF, improved understanding of reading text files and writing output files.",
     relevance: "Scripting skills for automating reporting and documentation.",
     links: { github: "https://github.com/AnjaliVB/Text-to-pdf-converter"}
-  }
+  },
+   {
+      name:"Network Packet Sniffer and Protocol Distribution Analyzer", tag:"Cybersecurity | Network Security | Network Traffic Analysis",
+      summary:"Python-based network traffic analyzer using Scapy to capture and classify packets by protocol, with Matplotlib visualization to summarize TCP, UDP, ICMP, and other traffic categories.",
+      what:"This tool captures 100 network packets, identifies and counts TCP, UDP, ICMP, and other IP traffic using Python and Scapy. It visualizes the protocol distribution in a bar chart using Matplotlib for basic network traffic analysis.",
+      why:"Built it as internship project",
+      objective:"Objective: To capture, analyze, and classify network packets by protocol using Python and Scapy, and visualize traffic distribution using Matplotlib for basic network monitoring and security analysis.",
+      tools:["Python","Scapy","Matplotlib"],
+      did:["Network Packet Capture: Uses Python's Scapy library to capture network packets from an accessible network interface.",
+           "Automatic Protocol Identification: Identifies packets containing TCP, UDP, and ICMP layers and categorizes other IP packets separately.",
+           "Packet Counting: Maintains individual counters for each protocol category to summarize captured network traffic.",
+           "IP Packet Filtering: Checks whether a packet contains an IP layer before performing protocol classification.",
+           "Configurable Packet Capture Limit: Captures 100 packets by default, allowing a limited traffic sample to be analyzed.",
+           "Real-Time Packet Processing: Processes each packet through a callback function as it is captured, updating protocol counters during the capture session.",
+           "Graphical Traffic Visualization: Uses Matplotlib to generate a bar chart displaying the packet count for each protocol category.",
+           "Color-Coded Bar Chart: Assigns different colors to protocol categories to make comparisons easier.",
+           "Lightweight Python Implementation: Uses Python libraries to perform packet analysis and visualization without requiring a full network monitoring platform."],
+      skills:["Python","Network packet capture and inspection","TCP","UDP","ICMP","IP protocol fundamentals.","Scapy packet-layer analysis","Data visualization","Matplotlib","Network Monitoring"],
+      outcome:"Gained hands-on experience in network packet capture, protocol identification, and traffic analysis using Python and Scapy, along with data visualization using Matplotlib and an understanding of fundamental network security monitoring concepts.",
+      relevance:"Relevance: Demonstrates practical application of network traffic monitoring and protocol analysis for understanding network communication patterns. Builds foundational skills relevant to cybersecurity, network security monitoring, and intrusion detection.",
+      links:{github:""}
+   }
 ];
 
 const certs = [
