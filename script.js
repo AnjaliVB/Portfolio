@@ -40,7 +40,7 @@ const projects = [
     skills: ["API security testing", "Injection testing", "Tool development","Python programming","GraphQL Security","API Vulnerability Assessment","Endpoint Enumeration",
              "Introspection Testing","Access Control Testing","Information Disclosure Analysis","Modules like Requests, urllib3, JSON","Regular Expressions","Web Crawling","Automated Vulnerability Detection",
              "HTTP/HTTPS","JSON Reporting","Vulnerability Documentation","Severity Classification"],
-    outcome: "[Add: results, test targets, findings.]",
+    outcome: "Tested successfully and found vulnerabilities on targets like Rick-and-Morty-API-for-GraphQL, SWAPI-GraphQL-API, GraphQL-Placeholder-Vercel-App, GraphQL-Zero",
     relevance: "Modern apps expose GraphQL APIs; automated checks speed up API pentests and security reviews.",
     links: { github: "https://github.com/AnjaliVB/GraphQL_Agent"}
   },
